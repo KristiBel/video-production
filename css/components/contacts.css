@@ -1,0 +1,15 @@
+.contacts {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacts_tel {
+    font-size: 26px;
+    
+}
+
+.contacts_working_hours-text {
+    font-size: 14px;
+
+}

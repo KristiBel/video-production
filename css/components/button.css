@@ -1,9 +1,22 @@
 button {
     font-size: 14px; 
     line-height: 19px; 
-    color: white;
+    color: #ff5500;
     background: transparent;
     padding: 18px 40px;
     border: 1px solid #ff5500; 
     border-radius: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.button_color_orange {
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+    border: 1px solid #ff5500; 
+    background-color: #ff5500; 
+    padding: 18px 40px;
+    border-radius: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
 }

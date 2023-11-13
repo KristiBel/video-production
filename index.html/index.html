@@ -5,27 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Production</title>
-    <link rel="stylesheet" href="./settings/style.css">
+    <link rel="stylesheet" href="../css/settings/style.css">
 </head>
 
 <body>
 
-    <header>
-
-        <div class="wrapper">
-            <img src="../../video-production/img/logo 1.png" alt="Header Logo">
-        
-        <nav class="navigation-menu">
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Отзывы</a></li>
-            </ul>
-        </nav>
-        <div class="contact-info">
-            <p>8 800 700 30 30</p>
-            <p>График работы</p>
+    <header class="header">
+        <div class="container">
+            <div class="header_logo"></div>
+            <div class="logo">
+                <a href="../index.html" class="logo-link"> 
+                    <img src="../../video-production/img/logo.svg" alt="Header Logo">
+                </a>
+            </div>
         </div>
+        <div class="header_menu">
+        <menu class="menu">
+            <li class="menu_item">
+                <a href="#" class="menu_link">Главная</a>
+            </li>
+            <li class="menu_item">
+                <a href="#" class="menu_link">Услуги</a>
+            </li>
+            <li class="menu_item">
+                <a href="#" class="menu_link">Отзывы</a>
+            </li>
+        </menu>
+    </div>
+    <div class=" header contacts">
+        <div class="contacts">
+            <a href="tel:8 800 700 30 30" class="contacts_tel">8 800 700 30 30</a>
+            <div class="contacts_working_hours">
+                <span class="contacts_working_hours-text">График работы</span>
+            </div>
+        </div>
+        </div>
+      <header>
     </header>
 
     <!-- Main Content Area -->
@@ -35,7 +50,7 @@
             <section class="first-section">
             <h1>Снимем для вас креативное видео</h1>
             <h3>Креативный видеопродакшн полного цикла</h3>
-            <button>Подробнее</button>
+            <button class="button_color_orange">Подробнее</button>
         </section>
 
          <!-- Second Section -->
@@ -52,7 +67,7 @@
                 <p>От 7 человек на проект</p>
                 <p>21 дней работы в среднем</p>
                 <p>Вы решили представиться своим слушателям, пополнить свой творческий багаж качественным видео? Прекрасно!</p>
-                <button>Подробнее</button>
+                <button class="button_color_orange">Подробнее</button>
             </div>
             <div class="card3">
                 <h3>Свадьба</h3>
@@ -66,13 +81,13 @@
         <!-- Third Section -->
         <h1>Новости и акции</h1>
         <div class="card1">
-            <img src="video-production/img/camera.png" alt="Card Image1">
+            <img src="../../video-production/img/camera.png" alt="Card Image1">
             <p class="small-text">Декабрь 2019</p>
             <h3>Снимем ваш клип на 50% дешевле</h3>
             <p>в честь Новогодних праздников мы раздаем огромные скидки, успейте забронировать даты. </p>
         </div>
         <div class="card2">
-            <img src="video-production/img/wedding.png" alt="Card Image2">
+            <img src="../../video-production/img/wedding.png" alt="Card Image2">
             <p class="small-text">Декабрь 2019</p>
             <h3>Акция для молодоженов 30%</h3>
             <p>Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех благ!</p>
@@ -96,11 +111,11 @@
   <!-- Fourth Section -->
   <section>
     <div class="about-us">
-        <img src="video-production/img/cameraman.png" alt="about us image">
+        <img src="../../video-production/img/cameraman.png" alt="about us image">
         <div class="card">
             <h3>О нас</h3>
             <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
-            <button>Подробнее</button>
+            <button class="button_color_orange">Подробнее</button>
         </div>
     </div>
 </section>
@@ -110,7 +125,7 @@
 <!-- Footer Section -->
 <footer>
     <div class="wrapper">
-        <img src="footer-logo" alt="Footer Logo">
+        <img src="../../video-production/img/logo-footer.png" alt="Footer Logo">
     </div>
     <nav>
         <ul>
@@ -125,16 +140,16 @@
     </div>
     <div class="social-media">
         <a href="https://t.me/your_telegram" target="_blank" rel="noopener noreferrer">
-            <img src="telegram-icon.png" alt="Telegram">
+            <img src="../../video-production/img/telegram.png" alt="Telegram">
         </a>
         <a href="https://www.facebook.com/your_facebook" target="_blank" rel="noopener noreferrer">
-            <img src="facebook-icon.png" alt="Facebook">
+            <img src="../../video-production/img/f.png" alt="Facebook">
         </a>
         <a href="https://www.instagram.com/your_instagram" target="_blank" rel="noopener noreferrer">
-            <img src="instagram-icon.png" alt="Instagram">
+            <img src="../../video-production/img/in.png" alt="Instagram">
         </a>
         <a href="https://vk.com/your_vk" target="_blank" rel="noopener noreferrer">
-            <img src="vk-icon.png" alt="VK">
+            <img src="../../video-production/img/vk.png" alt="VK">
         </a>
     </div>
 </footer>

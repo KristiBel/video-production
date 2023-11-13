@@ -1,0 +1,20 @@
+.menu {
+    background-color: transparent; 
+}
+
+.menu  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu_item {
+    display: inline-block;
+    margin-right: 54px; 
+}
+
+.menu_link {
+    text-decoration: none;
+    color: white; 
+    padding: 0; 
+}
