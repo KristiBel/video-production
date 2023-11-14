@@ -1,5 +1,10 @@
-.header_container{
+header {
     display: flex;
-    justify-self: center;
-    align-items:center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; 
 }
+
+.header_container {
+    display: flex;
+    align-items: center;}

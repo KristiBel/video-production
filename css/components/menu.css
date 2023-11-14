@@ -1,15 +1,15 @@
-.menu {
-    background-color: transparent; 
-}
 
-.menu  {
-    list-style-type: none;
+menu {
+   display: flex;
+}
+.menu_list {
+    list-style: none;
+    display: flex;
     margin: 0;
     padding: 0;
 }
 
 .menu_item {
-    display: inline-block;
     margin-right: 54px; 
 }
 
