@@ -1,0 +1,14 @@
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer.menu {
+    display: flex;
+    justify-content: center;
+}
