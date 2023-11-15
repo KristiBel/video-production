@@ -2,18 +2,18 @@
 menu {
    display: flex;
 }
-.menu_list {
+.menu__list {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.menu_item {
+.menu__item {
     margin-right: 54px; 
 }
 
-.menu_link {
+.menu__link {
     text-decoration: none;
     color: white; 
     padding: 0; 

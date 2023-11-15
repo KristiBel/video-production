@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
 }
-.header_container {
+.header__container {
     display: inline;
     justify-content: space-between;
     align-items: center;

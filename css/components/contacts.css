@@ -5,19 +5,19 @@
 
 }
 
-.contacts_tel {
+.contacts__tel {
     
     font-size: 26px;
     line-height: 20px;
     display: inline;
 }
 
-.contacts_working_hours {
+.contacts__working-hours {
     margin-top: 5px; 
     font-size: 13px;   
 }
  
-.contacts_free_call {
+.contacts__free-call {
 font-size: 11px;
 line-height: 20px;
 color:darkgrey ;

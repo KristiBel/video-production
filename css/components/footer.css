@@ -1,9 +1,9 @@
-.footer_container {
+.footer__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer_contacts {
+.footer__contacts {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -13,7 +13,10 @@
     justify-content: center;
     gap: 20px;
 }
-.footer_socials {
-    display: flex;
+.footer__socials {
+    text-align: center;
     gap: 20px;
+}
+.socials {
+    display: flex;
 }
